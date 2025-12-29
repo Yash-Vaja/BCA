@@ -1,0 +1,22 @@
+Key Differences Table:
+Feature  	Array				Collection
+Size    	Fixed				Dynamic
+Type-Safety	Strongly typed			Depends (Generic = strongly typed)
+Flexibility	Rigid(stable)			Very flexible
+Indexing	By integer index		Usually by index (some support keys)
+Performance	Faster for primitive use	Slightly slower, but more capable
+Use Case	Simple, fixed-size data		Complex, variable-size, richer API
+Example Types	Integer(), String()		List(Of T), ArrayList, Collection
+
+✅ When to Use:
+Use Arrays when:
+
+You know the exact number of elements in advance
+
+You want high performance and minimal overhead
+
+Use Collections when:
+
+The number of elements may change
+
+You need more advanced features (sorting, filtering, etc.)
